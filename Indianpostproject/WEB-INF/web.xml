@@ -1,0 +1,46 @@
+
+<web-app >
+  <display-name>IndiaPost</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+
+<servlet>
+<servlet-name>login</servlet-name>
+<servlet-class>LoginServlet</servlet-class>
+
+
+</servlet>
+<servlet-mapping>
+<servlet-name>login</servlet-name>
+<url-pattern>/ulogin</url-pattern>
+</servlet-mapping>
+<servlet>  
+  
+    <servlet-name>register</servlet-name>  
+    <servlet-class>RegisterServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>register</servlet-name>  
+    <url-pattern>/uregister</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+  
+    <servlet-name>Updatepickup</servlet-name>  
+    <servlet-class>Updatepickup</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>Updatepickup</servlet-name>  
+    <url-pattern>/upickup</url-pattern>  
+  </servlet-mapping> 
+    
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>  
+    <servlet-class>LogoutServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LogoutServlet</servlet-name>  
+    <url-pattern>/LogoutServlet</url-pattern>  
+  </servlet-mapping>  
+</web-app>

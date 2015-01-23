@@ -1,0 +1,68 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>India Post</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+     <header>
+	  <div id="banner">
+	    <div id="welcome">
+
+	      <h2>India Post</h2>
+		  
+	    </div><!--close welcome-->			  	
+	  </div><!--close banner-->	
+	</header>
+
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="contact.html">Contact Us</a></li>
+         <li><a href="userlogin.html">LOGIN</a></li>
+        <li><a href="Registration.html">NEWUSER</a></li>
+          
+        </ul>
+      </div><!--close menubar-->	
+	</nav>
+    
+	<div id="site_content">	
+
+      <div class="slideshow">
+	    <ul class="slideshow">
+          <li class="show"><img width="940" height="300" src="images/home_1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+          
+        </ul> 
+	  </div><!--close slideshow-->		
+
+	  
+        
+	
+	  <div id="content">
+        <div class="content_item">
+		  <div class="form_settings">
+            <h2>Contact Us</h2>
+            <p>Phone: +91-8121856567</p>
+            <p>Email: <a href="mailto:naveen@gmail.com">naveen@gmail.com</a></p>
+            	
+  
+   
+  
+  </div><!--close main-->
+
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>	
+
+</body>
+</html>
